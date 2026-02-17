@@ -82,49 +82,41 @@ Models are evaluated using metrics such as accuracy, F1-score, and ROC-AUC.
 
 ---
 
-## 🚀 How to Use This Project
+## 🚀 How to Run This Project
 
-### 1. Clone the repository
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Riddhimaraii/Customer-Churn-Analysis.git
+2. Navigate to the project folder:
+   cd Customer-Churn-Analysis
+   
+3. Install dependencies:
+   pip install -r requirements.txt
 
-```bash
-git clone https://github.com/Riddhimaraii/Customer-Churn-Analysis.git
-2. Navigate to project folder
-cd Customer-Churn-Analysis
-3. Install dependencies
-You can use pip or a virtual environment:
+4. Run the notebook:
+   jupyter notebook
+Open and run the Jupyter Notebook to explore the full analysis.
 
-pip install -r requirements.txt
-4. Run the Notebook
-Open and run the Jupyter Notebook to explore the analysis:
-
-jupyter notebook
 📋 Results & Insights
+
 This project demonstrates:
 
-Which customer segments are most likely to churn
+•Which customer segments are most likely to churn
 
-Key features that influence churn outcomes
+•Key features that influence churn outcomes
 
-Predictive performance of different machine learning models
+•Predictive performance of different machine learning models
 
-Results help in decision-making and targeted retention strategies.
+•Business insights for targeted retention strategies
 
 🧠 Future Scope
+
 You can enhance this project by:
 
-Adding hyperparameter tuning
+•Adding hyperparameter tuning
 
-Deploying a deployed interface (e.g., Streamlit app)
+•Deploying a Streamlit web application
 
-Integrating real-time prediction API
+•Integrating a real-time prediction API
 
-Including feature importance visuals and dashboards
-
-📫 Contact
-If you have feedback or suggestions, feel free to open an issue or reach out!
-
-
----
-
-Want the README to be **even more recruiter-friendly** (with badges, metrics table, model performance, dataset preview)? I can generate that too! 🚀
-::contentReference[oaicite:0]{index=0}
+•Including feature importance visuals and dashboards
